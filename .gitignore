@@ -1,0 +1,9 @@
+logs/
+temp/
+tmp/
+.env
+data
+test.py
+.vscode
+__pycache__/
+variables

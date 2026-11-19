@@ -1,0 +1,32 @@
+[theme]
+# Primary accent color for buttons, sliders, and active elements
+primaryColor = "#2E86C1"
+
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color for the sidebar and interactive widgets
+secondaryBackgroundColor = "#F4F6F7"
+
+# Text color
+textColor = "#2C3E50"
+
+# Font family ("sans serif", "serif", or "monospace")
+font = "sans serif"
+
+[server]
+# The port to listen on (default is 8501)
+port = 8501
+
+# Enable/disable automatic browser opening on `streamlit run`
+headless = true
+
+# Maximum size for file uploads in megabytes (default is 200)
+maxUploadSize = 200
+
+# Enable CORS protection
+enableCORS = false
+
+[client]
+# Show full traceback details when an exception occurs in production (false hides it)
+showErrorDetails = true
